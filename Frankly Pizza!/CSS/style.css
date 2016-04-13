@@ -1,0 +1,107 @@
+/*
+1 - Utilities
+2 - General Styles
+3 - Individual Styles
+4 - Layout
+*/
+
+/*1 - Utilities*/
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*2 - General Styles*/
+
+h1, h2, h3,h4, h5 {
+	font-family: roboto slab, serif;
+}
+
+h3:after {
+   display: block;
+   height: 2px;
+   background-color: #e67e22 ;
+   content: " ";
+   width: 100px;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+}
+
+header {
+	background-image: url('../assets/photos/header.jpg');
+	height: 800px;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+}
+
+
+.background {
+	background-color: white;
+	z-index: 10000
+}
+
+.nav,
+.main {
+	margin-top: 800px;
+	position: relative;
+}
+
+.nav {
+	box-shadow: 0 2px 3px rgba(0,0,0, .4);
+}
+
+.section-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.footer-section {
+	height: 300px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.subheading {
+	font-family: Roboto Slab, serif;
+	font-size: 30px;
+	color: white;
+}
+
+/*3 - Layout*/
+
+.logo {
+	margin: auto;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.about-article {
+	float: right;
+}
+
+.about-photo {
+	float: right;
+}
