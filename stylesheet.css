@@ -82,6 +82,12 @@ article:after {
 	img#header-image {
 		width: 100%;
 	}
+
+	#hero {
+
+		padding-top: 100px;
+
+	}
 	.navbar {
 		position: fixed;
 		left: 0;
