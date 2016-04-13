@@ -78,6 +78,12 @@ article:after {
 	padding-top: 200px;
 }
 
+@media (min-width: 1000px;) {
+	img #header-image {
+		width: 100%;
+	}
+}
+
 #logo {
 	text-align: center;
 }
