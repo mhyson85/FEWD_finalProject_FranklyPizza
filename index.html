@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="UFT-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Frankly Pizza!</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -93,7 +94,7 @@
 						<div class="row">
 							<div id="map" class="col-md-12">
 								<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-										<div style='overflow:hidden;height:250px;width:700px;'><div id='gmap_canvas' style='height:300px;width:600px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.proxysitereviews.com/">proxy sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+										<div style='overflow:hidden;height:250px;'><div id='gmap_canvas' style='height:300px;width:600px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.proxysitereviews.com/">proxy sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 										</div>
 										<script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(39.0274936,-77.07453329999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.0274936,-77.07453329999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Frankly Pizza!</strong><br> 10417 Armory Ave, Kensington, MD 20895<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
 									</script>
