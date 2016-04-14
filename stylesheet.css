@@ -20,7 +20,7 @@ header {
 	text-align: center;
 	height: 800px;
 	background-color: gray;
-	background-image: url("assets/photos/header.jpg");
+	background-image: url("assets/Photos/header.jpg");
 	width: 100%;
 	background-size: cover;
 	position: fixed;
@@ -157,19 +157,19 @@ main {
 }
 
 #menu {
-	background-image: url("assets/photos/FP16.jpg");
+	background-image: url("assets/Photos/FP16.jpg");
 }
 
 #about {
-	background-image: url("assets/photos/FP3.jpg");
+	background-image: url("assets/Photos/FP3.jpg");
 }
 
 #contact {
-	background-image: url("assets/photos/FP63.jpg");
+	background-image: url("assets/Photos/FP63.jpg");
 }
 
 #blog {
-	background-image: url("assets/photos/FP5.jpg");
+	background-image: url("assets/Photos/FP5.jpg");
 }
 
 div #map {
