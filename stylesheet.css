@@ -49,6 +49,10 @@ h2, h3 {
 	font-size: 40px;
 }
 
+h4 a {
+	font-size: 40px;
+}
+
 h2 {
 	color: rgb(200,188,180)
 }
