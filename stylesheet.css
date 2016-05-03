@@ -32,8 +32,8 @@ header {
 
 p, li, article {
 	font-family: roboto, sans-serif;
-	font-size: 20px;
-	font-weight: 700;
+	font-size: 19px;
+	font-weight: 400;
 }
 
  li a:hover li.active {
@@ -46,11 +46,11 @@ h1, h2, h3, h4, h5 {
 }
 
 h2, h3 {
-	font-size: 40px;
+	font-size: 35px;
 }
 
 h4 a {
-	font-size: 20px;
+	font-size: 14px;
 }
 
 h2 {
@@ -103,6 +103,23 @@ article:after {
 		background-color: #222;
 	}
 
+}
+
+@media (max-width: 768px) {
+	img#header-image {
+		width: 100%;
+	}
+
+	#hero {
+
+		padding-top: 100px;
+
+	}
+
+	#nav-container {
+		background-color: #222;
+	}
+
 }	
 
 #logo {
@@ -146,7 +163,7 @@ body {
 }
 
 #nav-container li {
-	font-size: 25px;
+	font-size: 20px;
 	float: none;
 	text-align: center;
 }
@@ -157,7 +174,7 @@ main {
 }
 
 address {
-	font-size: 18px;
+	font-size: 18 px;
 }
 
 #menu {
